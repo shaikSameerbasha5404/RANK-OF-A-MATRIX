@@ -11,8 +11,13 @@ To write a python program to find the rank of a matrix
 ### Step 4: 
 ## Program:
 ```python
+#Program to find the rank of a matrix.
+#Developed by: Shaik Sameer Basha
+#RegisterNumber:22004926
 import numpy as np
-from tensorflow import keras
+A=np.array([[1,2,3],[3,6,9]])
+rank=np.linalg.matrix_rank(A)
+print(rank)
 ```
 ## Output:
 ![model](/rank-of-matrix.png)
